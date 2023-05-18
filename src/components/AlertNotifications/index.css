@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.responsive-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .responsive-container {
+    width: 85%;
+    max-width: 1100px;
+  }
+}
+.message-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 600;
+}
+.description {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+  color: #64748b;
+}
+.success {
+  color: #2dca73;
+}
+.error {
+  color: #ff0b37;
+}
+.info {
+  color: #0f81e0;
+}
+.warning {
+  color: #ffb800;
+}
